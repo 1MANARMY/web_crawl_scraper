@@ -3,4 +3,5 @@ A simple web crawler built with Python, I have also added a feature to scrape da
 
 Author: Edwin Carrasquillo <ecarra7979@gmail.com>
 Version: 1.0.0
+Python: Version 3
 Date: 02/03/2016
