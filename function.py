@@ -8,8 +8,8 @@ def ticker_entry():
 		useri = raw_input("Enter ticker: ")
 		ticker_list.append(useri)
 		i+=1
-		yahoo_scrape()
-
+	else:
+		return google_net_scrape(ticker_list)
 def yahoo_scrape():
 	i=0
 	while i<len(ticker_list):
@@ -25,7 +25,7 @@ def yahoo_scrape():
 def google_net_scrape(ticker_list):
 	i=0
 	while i<len(ticker_list):
-		htmltext = urllib.urlopen("https://www.google.com/finance/getprices?q=" +ticker_list[i] +"&x=NASD&i=120&p=25m&f=c")
+		htmltext = urllib.urlopen("https://www.google.com/finance/getprices?q=" +ticker_list[i] +"&x=NASD&i=120&p=25m&f=c").read()
 		return "the price of" + ticker_list[i] + " is " + htmltext.split()[len(htmltext.split())-1]
 		i+=1
 if __name__ == "__main__":
