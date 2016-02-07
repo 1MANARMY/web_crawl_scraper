@@ -8,8 +8,6 @@ def ticker_entry():
 		useri = raw_input("Enter ticker: ")
 		ticker_list.append(useri)
 		i+=1
-	else:
-		return google_net_scrape(ticker_list)
 def yahoo_scrape():
 	i=0
 	while i<len(ticker_list):
