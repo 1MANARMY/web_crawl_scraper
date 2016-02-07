@@ -1,5 +1,5 @@
 # web_crawl_scraper
-A simple web crawler built with Python, I have also added a feature to scrape data based off of the stock tickers that you enter. This will be part of a 3 day challenge. Adding front end interface, database, and finalizing with code cleanup..
+A simple web crawler built with Python, I have also added a feature to scrape data based off of the stock tickers that you enter. This will be part of a 3 day challenge. Adding front end interface at www.encapdio.com/pyscraper.php, database, and finalizing with code cleanup..
 
 Author: Edwin Carrasquillo <ecarra7979@gmail.com>
 Version: 1.0.0
