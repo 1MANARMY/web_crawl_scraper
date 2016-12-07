@@ -11,6 +11,6 @@ def fileChecker():
 		pass
 	else:
 #if the file doesn't equal itself then execute out webcrawler 
-		execfile("pyweb_scraper.py")
+		fileChecker()
 if __name__ == "__main__":
 	fileChecker()
